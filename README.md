@@ -1,10 +1,6 @@
-# Getting Started with Create React App
+# Demo
+This website will help people to look up for news.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
 
 
 
