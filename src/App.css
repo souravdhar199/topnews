@@ -1,38 +1,78 @@
-.App {
+.children {
+  padding: 10px 10px 10px 10px;
+  min-width: 100px;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.parent {
+  margin: 100px 0px 10px 10px;
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+p {
+  font-size: 13px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a:link {
+  text-decoration: none;
+
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e7e7e7;
+}
+
+form {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.input1 {
+  height: 36px;
+  width: 300px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.input2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.input2:hover {
+  background-color: #e7e7e7;
 }
