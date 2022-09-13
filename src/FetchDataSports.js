@@ -4,7 +4,6 @@ import './App.css';
 function FetchDataSports({ value }) {
     const [sports, Setsports] = useState([]);
     //This will fetch data from the NewYork times API
-    console.log(process.env)
     useEffect(() => {
         fetch(`https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${value}&api-key=${process.env.REACT_APP_API_KEY}`)
             .then(response => response.json())
